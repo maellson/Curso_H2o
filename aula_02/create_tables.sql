@@ -10,11 +10,7 @@ CREATE TABLE profissionalSaude (
     CBO VARCHAR(20) NOT NULL
 );
 
-ALTER TABLE profissionalSaude ADD COLUMN descricao_CBO VARCHAR(255);
 
-UPDATE profissionalSaude SET descricao_CBO = 'Médico Clínico Geral' WHERE CBO = '2251-01';
-UPDATE profissionalSaude SET descricao_CBO = 'Enfermeiro' WHERE CBO = '2235-01';
-UPDATE profissionalSaude SET descricao_CBO = 'Técnico de Enfermagem' WHERE CBO = '3222-01';
 
 
 CREATE TABLE paciente (
@@ -73,5 +69,10 @@ INSERT INTO profissionalSaude (id, nome, CBO) VALUES
 (gen_random_uuid(), 'Tec. Felipe Andrade', '3222-01'); -- Técnico de Enfermagem
 
 
+------------------------------------------------ ALTERANDO OS PROFISSIONAIS DE SAUDE COM UMA DESCRICAO PARA CADA CBO--------------------------------------------
 
+ALTER TABLE profissionalSaude ADD COLUMN descricao_CBO VARCHAR(255);
 
+UPDATE profissionalSaude SET descricao_CBO = 'Médico Clínico Geral' WHERE CBO = '2251-01';
+UPDATE profissionalSaude SET descricao_CBO = 'Enfermeiro' WHERE CBO = '2235-01';
+UPDATE profissionalSaude SET descricao_CBO = 'Técnico de Enfermagem' WHERE CBO = '3222-01';
