@@ -1,0 +1,8 @@
+Criar um arquivo .ENV no diretorio principal e nele adicionar as credenciais.
+Assim conseguirao trazer os dados usando o arquivo de analise e tratamento de dados.
+
+DB_HOST="bravonix-h2o.cyxg40uuwn8v.sa-east-1.rds.amazonaws.com"
+DB_DATABASE=bravonix
+DB_USER=bravonixx
+DB_PASSWORD="bravonixx"
+DB_PORT=5432
