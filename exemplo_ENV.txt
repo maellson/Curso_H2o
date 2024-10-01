@@ -1,6 +1,8 @@
 Criar um arquivo .ENV no diretorio principal e nele adicionar as credenciais.
 Assim conseguirao trazer os dados usando o arquivo de analise e tratamento de dados.
 
+Esses Valores serao carregados ao rodar o notebook analise_tratamento.ipynb
+
 DB_HOST="bravonix-h2o.cyxg40uuwn8v.sa-east-1.rds.amazonaws.com"
 DB_DATABASE=bravonix
 DB_USER=bravonixx
