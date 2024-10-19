@@ -135,6 +135,8 @@ venv.bak/
 
 .tar
 *.tar
+*.zip
+desafio-db-export.tar
 # Spyder project settings
 .spyderproject
 .spyproject
