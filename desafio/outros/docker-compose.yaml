@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    build: .
+    container_name: desafio
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: amesma
+      POSTGRES_DB: desafio
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
