@@ -1,0 +1,34 @@
+// Diagrama Entidade-Relacionamento
+digraph {
+	unidadeSaude [label="Unidade de Saúde
+- id (UUID)
+- nome (VARCHAR)
+- endereco (VARCHAR)"]
+	profissionalSaude [label="Profissional de Saúde
+- id (UUID)
+- nome (VARCHAR)
+- CBO (VARCHAR)
+- descricao_CBO (VARCHAR)"]
+	paciente [label="Paciente
+- id (UUID)
+- nome (VARCHAR)
+- endereco (VARCHAR)
+- bairro (VARCHAR)
+- dataNascimento (DATE)
+- sexo (CHAR)"]
+	atendimento [label="Atendimento
+- id (UUID)
+- id_unidade (UUID)
+- nome_unidade (VARCHAR)
+- id_paciente (UUID)
+- nome_paciente (VARCHAR)
+- id_profissionalSaude (UUID)
+- nome_profissionalSaude (VARCHAR)
+- CBO_profissional (VARCHAR)
+- descricao_CBO_profissional (VARCHAR)
+- data_hora_atendimento (TIMESTAMP)
+- CID (VARCHAR)"]
+	unidadeSaude -> atendimento [label="1:N"]
+	profissionalSaude -> atendimento [label="1:N"]
+	paciente -> atendimento [label="1:N"]
+}

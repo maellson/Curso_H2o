@@ -1,0 +1,176 @@
+mes_ano,bairro,num_atendimentos_mensal
+2018-01,Barros,14
+2018-01,Cardoso,67
+2018-01,Catole,81
+2018-01,Cavalcante,8
+2018-01,Centro,58
+2018-01,Chines,32
+2018-01,Correia,10
+2018-01,Cruzeiro,50
+2018-01,Do Sol,13
+2018-01,Flores,33
+2018-01,Girassol,35
+2018-01,Liberdade,46
+2018-01,Machado,16
+2018-01,Malvinas,77
+2018-01,Monteiro,28
+2018-01,Montenegro,12
+2018-01,Novais,57
+2018-01,Ouro Velho,33
+2018-01,Pedra,47
+2018-01,Peixoto,16
+2018-01,Prata,56
+2018-01,Reino Verde,38
+2018-01,Salgadinho,43
+2018-01,Silveira,10
+2018-01,das Cidades,26
+2018-02,Barros,16
+2018-02,Cardoso,83
+2018-02,Catole,92
+2018-02,Cavalcante,10
+2018-02,Centro,54
+2018-02,Chines,48
+2018-02,Correia,12
+2018-02,Cruzeiro,38
+2018-02,Do Sol,24
+2018-02,Flores,41
+2018-02,Girassol,33
+2018-02,Liberdade,46
+2018-02,Machado,11
+2018-02,Malvinas,54
+2018-02,Monteiro,26
+2018-02,Montenegro,5
+2018-02,Novais,37
+2018-02,Ouro Velho,34
+2018-02,Pedra,54
+2018-02,Peixoto,13
+2018-02,Prata,67
+2018-02,Reino Verde,38
+2018-02,Salgadinho,56
+2018-02,Silveira,17
+2018-02,das Cidades,32
+2018-03,Barros,14
+2018-03,Cardoso,102
+2018-03,Catole,134
+2018-03,Cavalcante,10
+2018-03,Centro,67
+2018-03,Chines,54
+2018-03,Correia,13
+2018-03,Cruzeiro,42
+2018-03,Do Sol,27
+2018-03,Flores,39
+2018-03,Girassol,24
+2018-03,Liberdade,51
+2018-03,Machado,16
+2018-03,Malvinas,86
+2018-03,Monteiro,36
+2018-03,Montenegro,11
+2018-03,Novais,53
+2018-03,Ouro Velho,51
+2018-03,Pedra,71
+2018-03,Peixoto,20
+2018-03,Prata,53
+2018-03,Reino Verde,57
+2018-03,Salgadinho,51
+2018-03,Silveira,15
+2018-03,das Cidades,35
+2018-04,Barros,21
+2018-04,Cardoso,99
+2018-04,Catole,130
+2018-04,Cavalcante,14
+2018-04,Centro,61
+2018-04,Chines,49
+2018-04,Correia,12
+2018-04,Cruzeiro,48
+2018-04,Do Sol,23
+2018-04,Flores,36
+2018-04,Girassol,38
+2018-04,Liberdade,45
+2018-04,Machado,20
+2018-04,Malvinas,115
+2018-04,Monteiro,32
+2018-04,Montenegro,7
+2018-04,Novais,46
+2018-04,Ouro Velho,28
+2018-04,Pedra,82
+2018-04,Peixoto,19
+2018-04,Prata,87
+2018-04,Reino Verde,51
+2018-04,Salgadinho,43
+2018-04,Silveira,15
+2018-04,das Cidades,43
+2018-05,Barros,34
+2018-05,Cardoso,110
+2018-05,Catole,122
+2018-05,Cavalcante,13
+2018-05,Centro,68
+2018-05,Chines,50
+2018-05,Correia,19
+2018-05,Cruzeiro,58
+2018-05,Do Sol,20
+2018-05,Flores,42
+2018-05,Girassol,42
+2018-05,Liberdade,64
+2018-05,Machado,17
+2018-05,Malvinas,114
+2018-05,Monteiro,37
+2018-05,Montenegro,9
+2018-05,Novais,56
+2018-05,Ouro Velho,46
+2018-05,Pedra,63
+2018-05,Peixoto,16
+2018-05,Prata,65
+2018-05,Reino Verde,41
+2018-05,Salgadinho,72
+2018-05,Silveira,13
+2018-05,das Cidades,33
+2018-06,Barros,16
+2018-06,Cardoso,129
+2018-06,Catole,120
+2018-06,Cavalcante,12
+2018-06,Centro,58
+2018-06,Chines,48
+2018-06,Correia,15
+2018-06,Cruzeiro,49
+2018-06,Do Sol,23
+2018-06,Flores,42
+2018-06,Girassol,37
+2018-06,Liberdade,54
+2018-06,Machado,9
+2018-06,Malvinas,95
+2018-06,Monteiro,35
+2018-06,Montenegro,7
+2018-06,Novais,61
+2018-06,Ouro Velho,40
+2018-06,Pedra,71
+2018-06,Peixoto,17
+2018-06,Prata,66
+2018-06,Reino Verde,43
+2018-06,Salgadinho,60
+2018-06,Silveira,15
+2018-06,das Cidades,50
+2018-07,Barros,14
+2018-07,Cardoso,124
+2018-07,Catole,143
+2018-07,Cavalcante,17
+2018-07,Centro,62
+2018-07,Chines,49
+2018-07,Correia,27
+2018-07,Cruzeiro,54
+2018-07,Do Sol,20
+2018-07,Flores,35
+2018-07,Girassol,26
+2018-07,Liberdade,57
+2018-07,Machado,19
+2018-07,Malvinas,102
+2018-07,Monteiro,32
+2018-07,Montenegro,21
+2018-07,Novais,69
+2018-07,Ouro Velho,74
+2018-07,Pedra,63
+2018-07,Peixoto,12
+2018-07,Prata,67
+2018-07,Reino Verde,18
+2018-07,Salgadinho,54
+2018-07,Silveira,15
+2018-07,das Cidades,42

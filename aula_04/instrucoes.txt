@@ -1,0 +1,40 @@
+Instruções para os Alunos:
+
+Acessar o Terminal: Abra um terminal na pasta aula_04.
+Execute o comando para construir a imagem e subir o contêiner:
+docker-compose up --build
+Acessar o Banco de Dados:
+Eles podem usar qualquer cliente PostgreSQL (como DBeaver, pgAdmin ou até mesmo psql no terminal) para se conectar ao banco de dados:
+Host: localhost
+Porta: 5436
+Usuário: postgres
+Senha: amesma
+Banco de Dados: cursoh2o
+
+Observações:
+
+Volume Persistente: O volume pgdata no docker-compose.yml garante que os dados do banco sejam persistentes e não sejam perdidos quando o contêiner for parado.
+Parar o Contêiner: Para parar o contêiner, os alunos podem pressionar CTRL + C no terminal que está rodando o docker-compose up, ou rodar:
+docker-compose down
+
+
+Caso queiram apagar os conteiners: 
+1. Parar e Remover Contêineres
+Se o contêiner que você quer remover estiver em execução, você precisará pará-lo primeiro.
+Listar todos os contêineres (ativos e inativos):
+-- docker ps -a
+Parar um contêiner específico (substitua <container_id> pelo ID do contêiner):
+-- docker stop <container_id>
+Remover um contêiner específico:
+-- docker rm <container_id>
+2. Remover Imagens Docker
+Listar todas as imagens:
+-- docker images
+Remover uma imagem específica (substitua <image_id> pelo ID da imagem):
+-- docker rmi <image_id>
+3. Remover Volumes
+Volumes armazenam dados de forma persistente. Se você quiser apagar esses dados:
+Listar todos os volumes:
+-- docker volume ls
+Remover um volume específico (substitua <volume_name> pelo nome do volume):
+-- docker volume rm <volume_name>

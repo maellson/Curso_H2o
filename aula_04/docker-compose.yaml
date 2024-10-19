@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    build: .
+    container_name: postgres_CursoIA
+    ports:
+      - "5436:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: amesma
+      POSTGRES_DB: cursoh2o
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

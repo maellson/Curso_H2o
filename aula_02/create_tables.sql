@@ -7,11 +7,9 @@ CREATE TABLE unidadeSaude (
 CREATE TABLE profissionalSaude (
     id UUID PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
-    CBO VARCHAR(20) NOT NULL
+    CBO VARCHAR(20) NOT NULL,
+    descricao_CBO VARCHAR(255) NOT NULL
 );
-
-
-
 
 CREATE TABLE paciente (
     id UUID PRIMARY KEY,
@@ -31,6 +29,7 @@ CREATE TABLE atendimento (
     id_profissionalSaude UUID NOT NULL,
     nome_profissionalSaude VARCHAR(255) NOT NULL,
     CBO_profissional VARCHAR(20) NOT NULL,
+    descricao_CBO_profissional VARCHAR(255) NOT NULL,
     data_hora_atendimento TIMESTAMP NOT NULL,
     CID VARCHAR(20) NOT NULL,
     FOREIGN KEY (id_unidade) REFERENCES unidadeSaude(id),
@@ -71,7 +70,7 @@ INSERT INTO profissionalSaude (id, nome, CBO) VALUES
 
 ------------------------------------------------ ALTERANDO OS PROFISSIONAIS DE SAUDE COM UMA DESCRICAO PARA CADA CBO--------------------------------------------
 
-ALTER TABLE profissionalSaude ADD COLUMN descricao_CBO VARCHAR(255);
+--ALTER TABLE profissionalSaude ADD COLUMN descricao_CBO VARCHAR(255);
 
 UPDATE profissionalSaude SET descricao_CBO = 'Médico Clínico Geral' WHERE CBO = '2251-01';
 UPDATE profissionalSaude SET descricao_CBO = 'Enfermeiro' WHERE CBO = '2235-01';
