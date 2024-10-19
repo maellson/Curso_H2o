@@ -132,10 +132,12 @@ venv.bak/
 # desafio/
 # desafio/*.*
 # desafio/*/
-
+desafio/outros/csv_.zip
 .tar
 *.tar
-*.zip
+
+
+
 desafio-db-export.tar
 # Spyder project settings
 .spyderproject
