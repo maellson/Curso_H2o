@@ -1,4 +1,6 @@
 Importar a Imagem em Outro Computador:
+Caso o arquivo esteja em formato zip, extraia o arquivo zip
+
 
 Os alunos podem usar o seguinte comando para importar a imagem e criar um contêiner:
 
