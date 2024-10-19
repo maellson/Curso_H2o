@@ -129,10 +129,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-#desafio/
-#desafio/*.*
-#desafio/*/
+# desafio/
+# desafio/*.*
+# desafio/*/
 
+.tar
+*.tar
 # Spyder project settings
 .spyderproject
 .spyproject
