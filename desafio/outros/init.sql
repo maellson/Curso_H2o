@@ -115,8 +115,7 @@ CREATE TABLE PAGAMENTOS (
     Valor_Titulo DECIMAL(15,10),
     Data_Paga TIMESTAMP,
     Peri_Refe CHAR(6),
-    Valor_Pago DECIMAL(15,10) ,
-    PRIMARY KEY (Nume_Titu, Nume_Parc)
+    Valor_Pago DECIMAL(15,10)
 );
 
 /*
