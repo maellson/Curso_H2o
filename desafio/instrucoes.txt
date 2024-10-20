@@ -1,30 +1,33 @@
 Importar a Imagem em Outro Computador:
 
-1. Favor usar o seguinte comando para extrair o arquivo .zip:
-
---código--
-
-unzip desafio-db-export.tar.zip
-
-------------
-
-2. Favor usar o seguinte comando para importar a imagem e criar um contêiner
-*docker load: Carrega uma imagem a partir de um arquivo .tar.
-* -i desafio-db-export.tar: O arquivo de imagem que fornecido.
-
---código--
-
-docker load -i desafio-db-export.tar
-
-------------
-
-3. Executar o Contêiner:
-
-Depois de carregar a imagem, voces podem executar o contêiner:
-
---código--
-
-docker run --name desafio-container -p 5434:5432 -d desafio-db-export
-
 -----------
 
+
+ docker-compose up --build -d
+                                                                                                   0.1s 
+
+docker run --name h2oconteiner -p 5439:5432 -d h2oconteiner    
+
+ou 
+
+docker run -d --name h2oconteiner -v h2oconteiner_pgdata:/var/lib/postgresql/data -p 5439:5432 h2oconteiner
+
+
+
+acessar o banco de dados pgadmin e fazer a conexao:
+host: localhost
+porta: 5439
+dbname: postgres
+user: postgres
+senha: amesma
+
+
+
+SELECT 
+    schemaname AS schema, 
+    relname AS table_name, 
+    n_live_tup AS row_count
+FROM 
+    pg_stat_user_tables
+ORDER BY 
+    n_live_tup DESC;

@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:latest
+    container_name: h2oconteiner
+    environment:
+      POSTGRES_DB: desafio
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: amesma
+    ports:
+      - "5439:5432"
+    volumes:
+      - h2oconteiner:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  h2oconteiner:
