@@ -3,9 +3,10 @@ Importar a Imagem em Outro Computador:
 -----------
 
 
- docker-compose up --build -d
-                                                                                                   0.1s 
-docker build -t desafioh2o .
+ ##docker-compose up --build -d  -- talvez rode no windows
+
+ #criando um aimagem                                                                                                  0.1s 
+docker build -t h2oconteiner .
 
 docker run --name h2oconteiner -p 5439:5432 -d h2oconteiner    
 
