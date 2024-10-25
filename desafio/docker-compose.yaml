@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   db:
-    image: postgres:latest
+    build: .
     container_name: h2oconteiner
     environment:
       POSTGRES_DB: desafio
@@ -10,8 +9,8 @@ services:
     ports:
       - "5439:5432"
     volumes:
-      - h2oconteiner:/var/lib/postgresql/data
+      - h2o_data:/var/lib/postgresql/data
     restart: unless-stopped
 
 volumes:
-  h2oconteiner:
+  h2o_data:

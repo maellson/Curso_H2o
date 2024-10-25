@@ -15,6 +15,27 @@ user: postgres
 senha: amesma
 
 
+
+---------------------------------  MODO DOIS USANDO YAML ----------------------
+     Caso o docker exista mas esteja com erro, se for criar do zero va direto para o passo 3
+     
+    #1.Para o docker Pare e remova o container atual (sem remover o volume):
+        --  docker stop h2oconteiner
+        --  docker rm h2oconteiner
+    #2.Pare e remova os containers e volumes existentes:
+        --  docker-compose down -v
+
+    #3.Recrie os containers com volumes persistentes:
+        --  docker-compose up -d --build
+
+    #4. Verifique os logs do container:
+
+        --  docker logs h2oconteiner
+
+    #5. Acesse o container e verifique o banco de dados:
+        --  docker exec -it h2oconteiner psql -U postgres -d desafio
+
+
 -- testando no pgadmin o sql
 
 SELECT 
@@ -25,3 +46,6 @@ FROM
     pg_stat_user_tables
 ORDER BY 
     n_live_tup DESC;
+
+
+
